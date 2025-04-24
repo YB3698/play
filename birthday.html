@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>🎂 민영이 축하하파티 🎉</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .invite-box {
+            position: relative;
+            z-index: 1;
+            border: 4px dashed #ff8ac4;
+            border-radius: 20px;
+            padding: 40px 30px;
+            background-color: rgba(255, 255, 255, 0.733);       /* 박스 배경 흰색 */
+            color: #333;                   /* 글자색 어두운 회색 */
+            box-shadow: 0 8px 16px rgba(255, 138, 196, 0.2);
+            
+            max-width: 600px;              /* 너비 제한 */
+            margin: 150px auto;            /* 위에서 150px 떨어지고 중앙정렬 */
+            text-align: center;            /* 안의 글자 중앙 정렬 */
+            animation: fadeInUp 1s ease forwards;
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            color: #ff4d94;
+            font-size: 3rem;
+        }
+        .info {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <!-- 홈으로 링크 (상단 고정) -->
+    <a href="home.html" class="home-link">🏠 홈으로</a>
+
+    <!-- 초대 내용 박스 -->
+    <div class="invite-box">
+        <h1>🎈 생일파티에 초대합니다! </h1>
+        <hr>
+        <div class="info">
+            드디어 기다리고 기다리던 민영이 오는날!!<br>
+            심지어 생일임!! 🎂<br>
+            함께 행복한 생일 보낼 준비 되셨나여!!! >ㅇ< ❤️<br>
+            설렌다면 소리질뤄ㅓ!!! 🎉
+            <hr>
+            <div>📍 <span style="font-weight:bold;">장소:</span> 유빈이가 있는 곳</div>
+            <div>📅 <span style="font-weight:bold;">날짜:</span> 2025년 4월 30일 (수)</div>
+            <div>🕒 <span style="font-weight:bold;">시간:</span> 하루종일</div>
+        </div>
+        
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+.home-link {
+    position: fixed;
+    top: 20px;  /* 상단에서 20px 만큼 떨어지게 */
+    left: 20px; /* 왼쪽에서 20px 만큼 떨어지게 */
+    background-color: rgba(255, 255, 255, 0.7);  /* 배경색 반투명 흰색 */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    z-index: 10;
+}
+
+.home-link:hover {
+    background-color: rgba(255, 255, 255, 1);  /* 호버 시 배경색이 불투명하게 바뀌도록 */
+}
+/* 홈배경 */
+body {
+    margin: 0;
+    padding-top: 80px;
+    background-image: url('image/myyb.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.imweb.me/upload/S202207202685e30f16e24/f470cb259e73b.jpeg');
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+/* 검은색 불투명 */
+.box1 {
+    padding: 100px 30px;
+    background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정 배경 */
+    color: white;                        /* 글자 하얗게 */
+    width: 80%;
+    max-width: 700px;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+/* 흰색 불투명 */
+.box2 {
+    background-color: rgba(255, 255, 255, 0.568);
+    width: 80%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+/* 글자1(타이틀 쓸 때 사용)*/
+.title {
+    background-color: rgba(205, 181, 227, 0.7); /* 살짝 투명한 연보라 */
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* 글자2(타이틀 글자 작은버전) */
+.title-small {
+    background-color: rgba(209, 192, 224, 0.7);
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* 글자3(굵은 글자) */
+.title1 {
+    display: block;  /* a태그도 블록처럼 */
+    font-size: 1.3rem;             /* 글자 크기 */
+    font-weight: bold;             /* 글자 굵게 */
+}
+
+/* 가로로 나오게 설정 */
+.title1-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    gap: 15px; /* 생일파티와 초대장 간격을 조정 */
+}
+
+/* 초대장 링크에 추가적인 여백 없애기 */
+.title1-row a {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;   /* 메뉴 박스 크기 설정 */
+    border-radius: 10px;  /* 메뉴 박스 동그랗게 만들기 */
+    transition: all 0.3s ease;  /* 메뉴 박스에 마우스 커서 갖다댔을 때 부드러운 색전환*/
+}
+/* 마우스 가져다 댔을 때 색 설정 */
+.menu a:hover {
+    background-color: rgb(236, 240, 16);
+    color: rgb(8, 8, 8);
+}
+/* hr 했을 때 */
+hr {
+    width: 80%;  /* 줄길이 */
+    margin: 30px auto;
+}
+
+
